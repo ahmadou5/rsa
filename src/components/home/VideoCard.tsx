@@ -31,7 +31,7 @@ export const VideoCard = ({ videoUrl, name }:VideoCardProps) => {
         playing={isPlaying}
         className='rounded-xl'
       />
-      <div className='lg:ml-5 ml-0 mr-auto bg-black mt-4 py-1 px-3 flex items-center justify-center rounded-3xl w-[160px]'>{name}</div>
+      <div className='lg:ml-5 ml-auto mr-auto bg-green-700 mt-4 py-1 px-3 flex items-center text-white justify-center rounded-3xl lg:w-[300px] w-[70%]'>{name}</div>
     </div>
   );
 };

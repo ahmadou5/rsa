@@ -26,13 +26,13 @@ const CofounderVideoCard = ({ name, title, videoSrc }:CoFounerProps) => (
 
 const CofounderVideos = () => {
   const cofounders = [
-    { name: "Alh Sani Umar", title: "CEO", videoSrc: "./assets/video/123.mp4" },
-    { name: "Alh Baban Gida", title: "Gen Manager", videoSrc: "./assets/video/456.mp4" }
+    { name: "Alh Rabiu Abubakar Tumfafi", title: "CEO", videoSrc: "./assets/video/223.mp4" },
+    
   ];
 
   return (
-    <div className="lg:p-12 py-6 px-1  w-[100%] lg:h-auto h-[800px]">
-      <h2 className="lg:text-5xl text-3xl font-light w-[100%] mt-10 text-center ml-auto mr-auto mb-4">From our Founders</h2>
+    <div className="lg:p-12 py-6 px-1  bg-white w-[100%] lg:h-auto h-[460px]">
+      <h2 className="lg:text-5xl text-3xl font-bold w-[100%] mt-10 text-center ml-auto mr-auto mb-4">From our CEO</h2>
       <div className="flex flex-col p-3 lg:w-[80%] w-[95%] lg:mt-12 mt-3 ml-auto mr-auto gap-4 justify-center items-center">
         {cofounders.map((cofounder, index) => (
           <VideoCard key={index} name={cofounder.name} videoUrl={cofounder?.videoSrc} />
