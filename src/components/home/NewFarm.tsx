@@ -370,7 +370,7 @@ export default function NewApp() {
       ],
     },
   ];
-  const CEO = +2348060993531;
+  const CEO = null; //+2348060993531;
   const sendWhatsappMessage = (product: string) => {
     const encodedMessage = encodeURIComponent(
       `Hello sir, Im Contacting You from Your Company Website i just saw the available Product their and i'm interested in ${product} lets talk if you have time. thank you`
