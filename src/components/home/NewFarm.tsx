@@ -391,10 +391,7 @@ export default function NewApp() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="lg:text-2xl flex text-xl font-bold text-black">
-            <img
-              src="/assets/logo.png"
-              className="lg:h-[52px] lg:w-[52px] h-11 w-11"
-            />
+            <img src="/assets/logo.png" className="lg:h-12 lg:w-12 h-9 w-9" />
             <p className="lg:ml-1 lg:mr-1 lg:mt-2 mt-2">RSA Nigeria Limited</p>
           </div>
           <div></div>
@@ -419,7 +416,7 @@ export default function NewApp() {
             <div className="mb-4 mt-1">
               <button
                 onClick={() => sendContactWhatsappMessage()}
-                className="bg-green-400/45 h-8 w-[160px] rounded-lg"
+                className="bg-green-400/75 h-8 w-[160px] rounded-lg"
               >
                 Contact us
               </button>
@@ -429,10 +426,10 @@ export default function NewApp() {
       </nav>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-12 px-4 mt-[50px]">
+      <section className="pt-16 pb-12 px-2 mt-[50px]">
         <div className="container mx-auto flex flex-col lg:flex-row items-center gap-12">
           <div className="lg:w-[76%] lg:mt-[100px] mt-3 ml-auto mr-auto py-12 lg:h-[480px]">
-            <h1 className="lg:text-6xl lg:flex hidden w-[99%] text-xl font-bold text-gray-900 mb-6">
+            <h1 className="lg:text-6xl lg:flex hidden w-[99%] text-2xl font-bold text-gray-900 mb-6">
               Empowering Global Agricultural Trade, Feeding the World
             </h1>
             <h1 className=" lg:hidden flex text-[24px] w-[99%] mt-5  font-bold text-gray-900 mb-6">
