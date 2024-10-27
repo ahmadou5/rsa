@@ -391,7 +391,10 @@ export default function NewApp() {
       <nav className="fixed top-0 w-full bg-white/80 backdrop-blur-md z-50 shadow-sm">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <div className="lg:text-2xl flex text-xl font-bold text-black">
-            <img src="/assets/logo.png" className="lg:h-12 lg:w-12 h-10 w-10" />
+            <img
+              src="/assets/logo.png"
+              className="lg:h-[52px] lg:w-[52px] h-11 w-11"
+            />
             <p className="lg:ml-1 lg:mr-1 lg:mt-2 mt-2">RSA Nigeria Limited</p>
           </div>
           <div></div>
@@ -451,7 +454,7 @@ export default function NewApp() {
       {/*** services  */}
       <ServicesSection />
       {/* Company Profile Section */}
-      <section className="py-16 px-2 bg-white">
+      <section className="py-16 lg:px-0 px-2 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             Company Profile
@@ -486,7 +489,7 @@ export default function NewApp() {
                 </h3>
                 <p>
                   Rabs and Songs Agricultural Nigeria limited was incorporated
-                  in 2011 as a limited liability company, under the company and
+                  in 2019 as a limited liability company, under the company and
                   allied Matters act 1990 with registration Number
                   (RC:19661200), as part of our group holding companies
                   strategic expansion and consoliation plan on food security
