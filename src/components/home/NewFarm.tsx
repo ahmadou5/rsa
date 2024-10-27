@@ -370,22 +370,28 @@ export default function NewApp() {
       ],
     },
   ];
-  const CEO = +2348060993531;
+  const CEO = {
+    number1: +2348060993531,
+    name: "Rabiu Abubakar Tumfafi",
+    company: "Rabs and Sons Agricultural Limited",
+  };
   const sendWhatsappMessage = (product: string) => {
     const encodedMessage = encodeURIComponent(
-      `Hello sir, Im Contacting You from Your Company Website i just saw the available Product their and i'm interested in ${product} lets talk if you have time. thank you`
+      `Hello ${CEO.name},
+
+  I'm reaching out from ${CEO.company} website. I came across ${CEO.company} and was impressed by your ${product}. I'd love to discuss More about it and explore potential opportunities for collaboration. Thank you`
     );
     const whatsappUrl = `https://wa.me/${
-      CEO || +2348174082307
+      CEO.number1 || +2348174082307
     }?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
   };
   const sendContactWhatsappMessage = () => {
     const encodedMessage = encodeURIComponent(
-      `Hello sir, Im Contacting You from Your Company Website i want to know more about Your Products and Company Thank you!!`
+      `Hello ${CEO.name}, Im Contacting You from ${CEO.company} Website i want to know more about Your Products and Company Thank you!!`
     );
     const whatsappUrl = `https://wa.me/${
-      CEO || +2348174082307
+      CEO.number1 || +2348174082307
     }?text=${encodedMessage}`;
     window.open(whatsappUrl, "_blank");
   };
