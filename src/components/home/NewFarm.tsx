@@ -454,13 +454,13 @@ export default function NewApp() {
       {/*** services  */}
       <ServicesSection />
       {/* Company Profile Section */}
-      <section className="py-16 lg:px-0 px-2 bg-white">
+      <section className="py-16 w-[100%] lg:px-0 px-2 bg-white">
         <div className="container mx-auto px-4">
           <h2 className="text-3xl font-bold text-center mb-12">
             Company Profile
           </h2>
           <div className="mb-6">
-            <div className="flex justify-center space-x-4">
+            <div className="flex lg:w-[100%] w-[98%] ml-auto mr-auto justify-center space-x-4">
               {["about", "mission", "vision", "services"].map((tab) => (
                 <button
                   key={tab}
@@ -488,8 +488,8 @@ export default function NewApp() {
                   About RSA NIG LTD
                 </h3>
                 <p>
-                  Rabs and Songs Agricultural Nigeria limited was incorporated
-                  in 2019 as a limited liability company, under the company and
+                  Rabs and Sons Agricultural Nigeria limited was incorporated in
+                  2019 as a limited liability company, under the company and
                   allied Matters act 1990 with registration Number
                   (RC:19661200), as part of our group holding companies
                   strategic expansion and consoliation plan on food security
