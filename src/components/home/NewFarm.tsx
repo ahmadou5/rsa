@@ -460,7 +460,7 @@ export default function NewApp() {
             Company Profile
           </h2>
           <div className="mb-6">
-            <div className="flex lg:w-[100%] w-[98%] ml-auto mr-auto justify-center space-x-4">
+            <div className="flex justify-center space-x-2">
               {["about", "mission", "vision", "services"].map((tab) => (
                 <button
                   key={tab}
